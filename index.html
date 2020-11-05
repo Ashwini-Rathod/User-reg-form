@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width= device-width, initial-scale=1"/>
+        <title>User Registartion Form</title>
+    </head>
+    <body>
+        <h1 style="text-align:center"><strong>USER RESGISTRATION FORM</strong></h1>
+        <form action= "https://localhost5500" method="GET">
+            <fieldset>
+                <legend><strong>Personal Details</strong></legend>
+            <label for="username">Name: </label>
+            <input type="text" id="username" />
+            <br/>
+            <br/>
+            <label for="email"> Email: </label>
+            <input type="text" id="email"/>
+            <br/>
+            <br/>
+            <label for="contactnum">Contact Number: </label>
+            <input type="text" id="contactnum"/>
+            <br/>
+            <br/>
+            <label for="gender">Gender: </label>
+            <input type="checkbox" id="gender" name="gender" value="M"/> Male
+            <input type="checkbox" id="gender" name="gender" value="F"/> Female 
+            <input type="checkbox" id="gender" name="gender" value="O"/> Other
+            </fieldset> 
+            <br/>
+            <br/>
+
+            <fieldset>
+                <legend><strong>Courses</strong></legend>
+            <label for="courses">Select the Course you want to pursue</label>
+            <select id="courses">
+                <option value="p">Python</option>
+                <option value="js">Javascript</option>
+                <option value="j">Java</option>
+                <option value="cp">C++</option>
+                <option value="c">C</option>
+            </select>
+            </fieldset>
+            <br/>
+            <br/>
+            <fieldset>
+                <legend><strong>Batches Available</strong></legend>
+                <label for="batch">Select the batch: </label>
+                <input type="radio" id="batch" name="batch" value="M"/> Morning Batch
+                <input type="radio" id="batch" name="batch" value="A"/> Afternoon Batch
+                <input type="radio" id="batch" name="batch" value="E"/> Evening Batch
+            </fieldset>
+            <br/>
+            <br/>
+            <fieldset>
+                <legend><strong>Payment</strong></legend>
+                <label for="payment">Payment options: </label>
+                <select id="payment">
+                    <option value="C">Cash</option>
+                    <option value="upi">UPI</option>
+                    <option value="nb">Net Banking</option>
+                    <option value="o">Other Payment methods</option>
+                </select>
+            </fieldset>
+            <br/>
+            <br/>
+            <button type="submit"> Submit </button>
+            <button type="submit"> Reset </button>
+        </form>
+
+    </body
+</html>
