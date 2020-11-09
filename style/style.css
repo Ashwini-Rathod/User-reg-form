@@ -70,6 +70,7 @@
     margin: auto;
 }
 
+
 .button-login{
     border: 1px solid green;
     background-color: green;
@@ -79,9 +80,18 @@
     font-size: 15px;
 }
 
+.button-login:hover{
+    color: white;
+}
+
 .fp{
     color: blue;
     text-decoration: none;
+}
+
+.fp:hover{
+    color: white;
+
 }
 
 /*.p-class{
@@ -102,6 +112,10 @@
     
 }
 
+.smg:hover{
+    color: black;
+}
+
 .smf{
     width: 200px;
     height: 40px;
@@ -114,6 +128,10 @@
     color: white;
     
     
+}
+
+.smf:hover{
+    color: black;
 }
 
 .smt{
@@ -130,11 +148,17 @@
 
 }
 
+.smt:hover{
+    color: black;
+}
+
 .end{
     background-color: black;
     text-align: center;
     padding: 10px;
 }
+
+
 
 
 .sign-up{
@@ -149,22 +173,29 @@
     padding-left: 5px;
 }
 
+.end-a:hover{
+    color: green;
+}
+
 @media (max-width: 640px){
     .main-class .sub-class{
         flex-direction: column;
 
     }
+
+    .main-class{
+        height: 130vh;
+    }
+
 }
 
-@media (max-width: 640px){
-    .main-class{
-        height: 120vh;
-    }
-}
 
 
 @media (max-width: 320px){
     .background{
         flex-direction: column;
     }
+
+  
 }
+
