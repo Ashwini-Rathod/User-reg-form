@@ -1,0 +1,170 @@
+.background{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+
+.header-h1{
+    padding-left: 5px;
+}
+
+.header-signup{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.header-signup:hover{
+    color: blue;
+}
+
+.main-class{
+    background-image: url(./main.jpeg);
+    height: 80vh;
+}
+
+.sub-class{
+    display: flex;
+    color: white;
+    width: 70%;
+    background-size: cover;
+    /*border: 10px solid blue;*/
+    margin: auto;
+    height: 70vh;
+}
+
+.lhs{
+    /*border: 2px solid blue;*/
+    width: 50%;
+    /*text-align: center;*/
+    
+}
+
+.lhs-div{
+    margin: auto;
+    
+    /*border: 2px solid white;*/
+
+}
+
+.input{
+    width: 70%;
+    height: 5vh;
+}
+
+.rhs{
+    margin-left: 20px;
+    /*border: 2px solid blue;*/
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    /*text-align: center;*/
+    padding: 15px;
+    margin: auto;
+}
+
+.button-login{
+    border: 1px solid green;
+    background-color: green;
+    width: 80px;
+    height: 40px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.fp{
+    color: blue;
+    text-decoration: none;
+}
+
+/*.p-class{
+    margin: auto;
+}*/
+
+
+.smg{
+    width: 200px;
+    height: 40px;
+    background-color: gray;
+    border: 2px solid gray;
+    background-color: gray;
+    text-decoration: none;
+   
+    margin: 5px;
+    color: white;
+    
+}
+
+.smf{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(69, 86,236);
+    border: 2px solid rgb(69, 86,236);
+    background-color: rgb(69, 86,236);
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    
+    
+}
+
+.smt{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(27, 196,226);
+    border: 2px solid rgb(27, 196, 226);
+    background-color: rgb(27, 196, 226);
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+
+
+}
+
+.end{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.sign-up{
+    background-color: black;
+    color: white;
+    padding-right: 5px;
+}
+
+.end-a{
+    text-decoration: none;
+    color: blue;
+    padding-left: 5px;
+}
+
+@media (max-width: 640px){
+    .main-class .sub-class{
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width: 640px){
+    .main-class{
+        height: 120vh;
+    }
+}
+
+
+@media (max-width: 320px){
+    .background{
+        flex-direction: column;
+    }
+}

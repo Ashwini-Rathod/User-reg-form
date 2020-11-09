@@ -4,69 +4,59 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width= device-width, initial-scale=1"/>
         <title>User Registartion Form</title>
+        <link rel="stylesheet" href="./style/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     </head>
     <body>
-        <h1 style="text-align:center"><strong>USER RESGISTRATION FORM</strong></h1>
-        <form action= "https://localhost5500" method="GET">
-            <fieldset>
-                <legend><strong>Personal Details</strong></legend>
-            <label for="username">Name: </label>
-            <input type="text" id="username" />
-            <br/>
-            <br/>
-            <label for="email"> Email: </label>
-            <input type="text" id="email"/>
-            <br/>
-            <br/>
-            <label for="contactnum">Contact Number: </label>
-            <input type="text" id="contactnum"/>
-            <br/>
-            <br/>
-            <label for="gender">Gender: </label>
-            <input type="checkbox" id="gender" name="gender" value="M"/> Male
-            <input type="checkbox" id="gender" name="gender" value="F"/> Female 
-            <input type="checkbox" id="gender" name="gender" value="O"/> Other
-            </fieldset> 
-            <br/>
+    <header>
+        <div class="background">
+            <h1 class="header-h1">CodersWorld</h1>
+            <a href="#" class="header-signup">Sign Up</a>
+        </div>
+    </header>
+    <div class="main-class">
+        <div class="sub-class">
+        <div class="lhs">
+            <h1>Welcome to CodersWorld!</h1>
+            <h2>Login</h2>
             <br/>
 
-            <fieldset>
-                <legend><strong>Courses</strong></legend>
-            <label for="courses">Select the Course you want to pursue</label>
-            <select id="courses">
-                <option value="p">Python</option>
-                <option value="js">Javascript</option>
-                <option value="j">Java</option>
-                <option value="cp">C++</option>
-                <option value="c">C</option>
-            </select>
-            </fieldset>
+            <div class="lhs-div">
+            <form action= "#" method="GET">
+            <label for="username">Username or Email </label><br/>
+            <input type="text" id="username" class="input"/>
             <br/>
             <br/>
-            <fieldset>
-                <legend><strong>Batches Available</strong></legend>
-                <label for="batch">Select the batch: </label>
-                <input type="radio" id="batch" name="batch" value="M"/> Morning Batch
-                <input type="radio" id="batch" name="batch" value="A"/> Afternoon Batch
-                <input type="radio" id="batch" name="batch" value="E"/> Evening Batch
-            </fieldset>
+            <label for="email"> Password</label><br/>
+            <input type="text" id="email" class="input"/>
             <br/>
             <br/>
-            <fieldset>
-                <legend><strong>Payment</strong></legend>
-                <label for="payment">Payment options: </label>
-                <select id="payment">
-                    <option value="C">Cash</option>
-                    <option value="upi">UPI</option>
-                    <option value="nb">Net Banking</option>
-                    <option value="o">Other Payment methods</option>
-                </select>
-            </fieldset>
             <br/>
-            <br/>
-            <button type="submit"> Submit </button>
-            <button type="submit"> Reset </button>
+            <a href="#"><button type="submit" class="button-login"> Login </button></a>
+            <a href="#" class="fp"> Forgot Password? </a>
+        </div>
+        </div>
+       
+        <div class="rhs">
+            <p class="p-class">If you've already linked your CodersWorld account to one of these services, you can use them to login:</p>
+            <a href="#" ><button type="submit" class="smg"><i class="fa fa-github-square fa-2x"></i> Login with GitHub</button></a>
+            <a href="#" ><button type="submit" class="smt"><i class="fa fa-twitter-square fa-2x"></i> Login with Twitter</button></a>
+            <a href="#" ><button type="submit" class="smf"><i class="fa fa-facebook-square fa-2x"></i> Login with Facebook</button></a>
+            
+            
+        </div>
         </form>
+    </div>
+    </div>
+    
 
-    </body
+    <div class="end">
+        <button type="submit" class="sign-up">Need an account?  <a href="#" class="end-a">  Sign-up now</a></button>
+        </a>
+    </div>
+  
+    
+
+
+</body>
 </html>
